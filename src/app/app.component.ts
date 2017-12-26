@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['../css/modern-business.css','../vendor/bootstrap/css/bootstrap.min.css']
 })
+
 export class AppComponent {
   title = 'Thai3K';
 }
