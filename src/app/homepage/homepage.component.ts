@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { RouterModule } from '@angular/router';
+
 
 @Component({
   selector: 'app-homepage',
@@ -11,5 +13,9 @@ export class HomepageComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  // goCategory(){
+  //   this.router.navigate(['Category']); 
+  // }
 
 }
