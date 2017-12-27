@@ -8,26 +8,31 @@ import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
 import { CategoryComponent } from './category/category.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactComponent,
     CategoryComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
     HttpModule,
     RouterModule.forRoot([
       {
-        path:'',component:AppComponent
+        path: '',component:HomepageComponent
       },
       {
-        path: 'contact', component: ContactComponent
+        path: 'Home',component:HomepageComponent
       },
       {
-        path: 'category', component: CategoryComponent
+        path: 'Contact', component: ContactComponent
+      },
+      {
+        path: 'Category', component: CategoryComponent
       },
       {
         path: 'ProductDetail', component: ProductDetailComponent
