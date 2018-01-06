@@ -1,6 +1,8 @@
+
 import { Component } from '@angular/core';
 import { ContactComponent } from './contact/contact.component';
 import { RouterModule } from '@angular/router';
+
 
 @Component({
   selector: 'app-root',
@@ -10,4 +12,5 @@ import { RouterModule } from '@angular/router';
 
 export class AppComponent {
   title = 'Thai3K';
+
 }
